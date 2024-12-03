@@ -16,10 +16,6 @@ const (
 	IDENT = "IDENT" // add, foobar, x, y, ...
 	INT   = "INT"   // 1343456
 
-	// Operators
-	ASSIGN = "="
-	PLUS   = "+"
-
 	// Delimiters
 	COMMA     = ","
 	SEMICOLON = ";"
@@ -31,6 +27,16 @@ const (
 	// Keywords
 	FUNCTION = "FUNCTION"
 	LET      = "LET"
+
+	// Operators
+	ASSIGN   = "="
+	PLUS     = "+"
+	MINUS    = "-"
+	BANG     = "!"
+	ASTERISK = "*"
+	SLASH    = "/"
+	LT       = "<"
+	GT       = ">"
 )
 
 // Define the keywords
